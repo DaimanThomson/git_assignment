@@ -1,5 +1,22 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hi");
+		Map<String, String[]> people = new HashMap<>();
+		people.put("Daiman", new String[] { "wins the lottery", "loses the lottery", "drives to Idaho",
+				"understands code", "Doesn/'t understand code" });
+		people.put("Trevor", new String[] { "wins the lottery", "loses the lottery", "drives to Idaho",
+				"understands code", "Doesn/'t understand code" });
+		people.put("Riley", new String[] { "wins the lottery", "loses the lottery", "drives to Idaho",
+				"understands code", "Doesn/'t understand code" });
+		people.put("Autumn", new String[] { "wins the lottery", "loses the lottery", "drives to Idaho",
+				"understands code", "Doesn/'t understand code" });
+		people.put("Jesse", new String[] { "wins the lottery", "loses the lottery", "drives to Idaho",
+				"understands code", "Doesn/'t understand code" });
+		System.out.println(people);
+		//for (Entry<String, String[]> person : people) {
+			//System.out.println(person.key() + " says " + person.value());
+		//}
 	}
 }
