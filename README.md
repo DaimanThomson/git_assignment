@@ -9,3 +9,5 @@ There will be a Java program in this repository, but the main purpose is to lear
 * Ensure there is a Java compiler
 
 ### Running
+
+Push the > in IntelliJ
