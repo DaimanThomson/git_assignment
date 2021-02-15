@@ -1,4 +1,7 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 
 public class Main {
 	public static void main(String[] args) {
@@ -12,7 +15,12 @@ public class Main {
 		people.put("Autumn", new String[] { "wins the lottery", "loses the lottery", "drives to Idaho",
 				"understands code", "Doesn't understand code" });
 		people.put("Jesse", new String[] { "wins the lottery", "loses the lottery", "drives to Idaho",
-				"understands code", "Doesn't understand code"});
+				"understands code", "Doesn't understand code" });
+
+		for (Map.Entry<String, String[]> person : people.entrySet()) {
+			System.out.println(person.getKey() + " says: " + Arrays.toString(person.getValue()));
+		}
+
 
 		String person1 = null;
 		String person2 = null;
