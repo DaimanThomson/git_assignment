@@ -21,7 +21,6 @@ public class Main {
 			System.out.println(person.getKey() + " says: " + Arrays.toString(person.getValue()));
 		}
 
-
 		String person1 = null;
 		String person2 = null;
 		String person3 = null;
