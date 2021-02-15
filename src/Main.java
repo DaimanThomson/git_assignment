@@ -17,10 +17,6 @@ public class Main {
 		people.put("Jesse", new String[] { "wins the lottery", "loses the lottery", "drives to Idaho",
 				"understands code", "Doesn't understand code" });
 
-		for (Map.Entry<String, String[]> person : people.entrySet()) {
-			System.out.println(person.getKey() + " says: " + Arrays.toString(person.getValue()));
-		}
-
 
 		String person1 = null;
 		String person2 = null;
